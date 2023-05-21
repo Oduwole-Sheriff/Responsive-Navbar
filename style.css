@@ -37,7 +37,7 @@
 }
 
 .sidebar .menu .menu-item:hover,
-.sidebar .menu .menu-tem.is-active{
+.sidebar .menu .menu-item.is-active{
     color: #3bba9c;
     border-right: 5px solid #3bba9c;
 }
@@ -86,7 +86,7 @@
     height: 4px;
     border-radius: 99px;
     background-color: #fff;
-    transition-duration: 25s;
+    transition-duration: .25s;
 }
 
 .hamburger > span::before{
@@ -121,7 +121,7 @@
 
 @media (max-width: 768px){
     .menu-toggle{
-        display: block;
+        display: block !important;
     }
     .content{
         padding-top: 8rem;
